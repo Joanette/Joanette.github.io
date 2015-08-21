@@ -1,0 +1,83 @@
+body{
+	font-family: 'Lato', sans-serif;
+	color: #676858;
+	font-weight: 300;
+	-moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+    zoom: 0.8; /* Other non-webkit browsers */
+    zoom: 80%; /* Webkit browsers */
+    padding-top: 15px;
+	padding-bottom: 15px;
+}
+.box_round {
+     -moz-border-radius:24px; /* FF1+ */
+  	 -webkit-border-radius: 24px; /* Saf3-4 */
+     border-radius: 24px; /* Opera 10.5, IE 9, Saf5, Chrome */
+}
+.container{
+	background-color: #E9F4F7;
+
+}
+.text-muted{
+	color: #BCBBBB;
+}
+.resume{
+	padding-left: 10px;
+	font-size:120%;
+	
+}
+.contact{
+	padding-left: 10px;
+}
+
+.content_box{
+	background-color: #FFFFFF; 
+	box-shadow: 10px 10px 5px #888888;
+	width: 80% ;
+  	margin-left: auto;
+  	margin-top: auto;
+  	margin-bottom: auto;
+  	margin-right: auto;
+}
+.profile-pic{
+	padding-left: 50px;
+	margin-left: auto; 
+	margin-top: 50px; 
+	margin-bottom: auto; 
+	margin-right: auto;
+}
+.preamble-text{ 
+	padding: 10px;
+	font-size: 20px;
+}
+
+.nav a{
+	color: #5a5a5a; 
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.nav li{
+	display: inline;
+}
+
+.text-thin{ 
+	font-weight: 300
+}
+.title-super{
+	font-size: 50px;
+	font-weight: bold;
+}
+.title-logo{
+	margin-top:20px;
+}
+.change-margin-left{
+	margin-left: 20px
+}
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
