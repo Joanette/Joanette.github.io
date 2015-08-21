@@ -9,13 +9,10 @@ body{
 	padding-bottom: 15px;
 }
 .box_round {
-     -moz-border-radius:24px; /* FF1+ */
-  	 -webkit-border-radius: 24px; /* Saf3-4 */
-     border-radius: 24px; /* Opera 10.5, IE 9, Saf5, Chrome */
+  box-shadow: 10px 10px 5px 10px #888888;
 }
 .container{
 	background-color: #E9F4F7;
-
 }
 .text-muted{
 	color: #BCBBBB;
