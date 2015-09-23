@@ -2,14 +2,14 @@ body{
 	font-family: 'Lato', sans-serif;
 	color: #676858;
 	font-weight: 300;
-	-moz-transform: scale(0.8, 0.8); /* Moz-browsers */
-    zoom: 0.8; /* Other non-webkit browsers */
-    zoom: 80%; /* Webkit browsers */
     padding-top: 15px;
 	padding-bottom: 15px;
 }
+.tw{
+	padding-left: 50px;
+}
 .box_round {
-  box-shadow: 10px 10px 5px 10px #888888;
+  box-shadow: 5px 5px 5px #888888;
 }
 .container{
 	background-color: #E9F4F7;
@@ -28,7 +28,7 @@ body{
 
 .content_box{
 	background-color: #FFFFFF; 
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 5px 5px #888888;
 	width: 80% ;
   	margin-left: auto;
   	margin-top: auto;
