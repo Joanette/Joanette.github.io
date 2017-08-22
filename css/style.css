@@ -1,80 +1,60 @@
-body{
-	font-family: 'Lato', sans-serif;
-	color: #676858;
-	font-weight: 300;
-    padding-top: 15px;
-	padding-bottom: 15px;
-}
-.tw{
-	padding-left: 25px;
-}
-.box_round {
-  box-shadow: 5px 5px 5px #888888;
-}
 .container{
-	background-color: #E9F4F7;
+	height: 700px;
+	width: auto;
+	background: #f00;
+	background-image: url("../images/pexels-photo-14676.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: 100% 100%;
+  background-size: cover;
+	overflow-y: hidden;
+	overflow-x: hidden;
+
 }
-.text-muted{
-	color: #BCBBBB;
+#navigation{
+	height: auto;
 }
-.resume{
-	padding-left: 10px;
-	font-size:120%;
-	
+button{
+	background-color: black;
+	border: white;
+	color: white;
+	text-transform: uppercase;
 }
-.contact{
-	padding-left: 10px;
+.name{
+ color: white;
+ text-align: center;
+ margin-top: 250px;
+}
+.title-super{
+	font-size: 50px;
+	font-family: 'Cabin', sans-serif;
+	font-weight: bold;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-weight: bold;
+	font-style: italic;
+}
+.nameButton {
+    text-align: center;
 }
 
-.content_box{
-	background-color: #FFFFFF; 
-	box-shadow: 5px 5px #888888;
-	width: 80% ;
-  	margin-left: auto;
-  	margin-top: auto;
-  	margin-bottom: auto;
-  	margin-right: auto;
+.button {
+    position: absolute;
+    top: 50%;
 }
-.profile-pic{
-	padding-left: 50px;
-	margin-left: auto; 
-	margin-top: 50px; 
-	margin-bottom: auto; 
-	margin-right: auto;
+.nav{
+	margin-top:20px;
 }
-.preamble-text{ 
-	padding: 10px;
-	font-size: 20px;
-}
-
 .nav a{
-	color: #5a5a5a; 
+
+	color: white;
 	font-size: 20px;
 	font-weight: bold;
-	padding: 10px;
+	padding: 20px;
 	text-transform: uppercase;
 }
 .nav li{
 	display: inline;
-}
-
-.text-thin{ 
-	font-weight: 300
-}
-.title-super{
-	font-size: 50px;
-	font-weight: bold;
-}
-.title-logo{
-	margin-top:20px;
-}
-.change-margin-left{
-	margin-left: 20px
-}
-hr {
-    border: none;
-    height: 1px;
-    /* Set the hr color */
-    color: #333; /* old IE */
-    background-color: #333; /* Modern Browsers */
 }
