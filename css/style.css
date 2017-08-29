@@ -1,7 +1,7 @@
 .container{
-	height: 700px;
+	height: 5000px;
 	width: auto;
-	background: #f00;
+	background: #75a3a3;
 	background-image: url("../images/pexels-photo-14676.png");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -14,8 +14,10 @@
 	overflow-x: hidden;
 
 }
-#navigation{
-	height: auto;
+
+button:hover{
+	background-color: white;
+	color: black;
 }
 button{
 	background-color: black;
@@ -26,7 +28,7 @@ button{
 .name{
  color: white;
  text-align: center;
- margin-top: 250px;
+ margin-top: 200px;
 }
 .title-super{
 	font-size: 50px;
@@ -45,14 +47,23 @@ button{
     top: 50%;
 }
 .nav{
-	margin-top:20px;
+	margin-top:40px;
+}
+.nav a:hover{
+	background-color: black;
+	border-style: solid;
+  border-width: 5px;
+	border-color: white;
 }
 .nav a{
-
+	border-style: solid;
+  border-width: 3px;
+	border-color: white;
 	color: white;
 	font-size: 20px;
 	font-weight: bold;
-	padding: 20px;
+	margin: 10px;
+	padding: 10px;
 	text-transform: uppercase;
 }
 .nav li{
